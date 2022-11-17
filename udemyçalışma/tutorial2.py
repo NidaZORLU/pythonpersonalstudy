@@ -15,3 +15,10 @@ class nameOfClass(SuperClass):
     attributes(age,address,name...) #variable yerine kullanılır
     methods #function yerine kullanılır
 """
+class Person:
+    def __init__(self):
+        self.name="Mustafa"
+        self.age=23
+    def deneme(self):
+        pass
+#init dediğimiz normal bir fonsiyon fakat __init__şeklinde yazılırsa fonksiyon içindekileri direkt gerçekleştiriyor,çağırmaya gerek olmuyor ve bu fonksiyona başlatıcı kurucu fonksiyon denir.
