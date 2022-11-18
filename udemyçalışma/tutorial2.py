@@ -16,9 +16,20 @@ class nameOfClass(SuperClass):
     methods #function yerine kullanılır
 """
 class Person:
-    def __init__(self):
-        self.name="Mustafa"
-        self.age=23
-    def deneme(self):
-        pass
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+p1=Person("Eyüp",36)
+p2=Person("Kadir",21)
+
+print(p1.name, 'is', p1.age)
+print(p2.name, 'is', p2.age)
+
+p1.name="Ayşe"
+print("-"*25)
+p1.age=54
+
+print(p1.name, 'is', p1.age)
+print(p2.name, 'is', p2.age)
+
 #init dediğimiz normal bir fonsiyon fakat __init__şeklinde yazılırsa fonksiyon içindekileri direkt gerçekleştiriyor,çağırmaya gerek olmuyor ve bu fonksiyona başlatıcı kurucu fonksiyon denir.
