@@ -20,6 +20,5 @@ class Araba():
 Araba_1=Araba()
 
 #class içine yazılan fonksiyonlara class ın methodu denir(sadece terim değişiyor)
-#class içine yazılan değişkenlere class ın niteliği denir(sadece terimler değişiyior)
-#yorum
+#class içine yazılan değişkenlere OOPnin niteliği denir(sadece terimler değişiyior)
 
