@@ -6,6 +6,8 @@ class Siparis:
     firma=[]
     #print("merhaba")
 
+
+
 #print(Siparis.adet)
 Siparis.isim="ünlü holding"
 Siparis.fiyat=10
@@ -23,3 +25,4 @@ print(kek.firma)
 #yeniden append kullanıp print yazarsak bu sefer ilk eklediğimiz firma yanına yeni eklenen firma eklenir eskisi silinmez yenisi eklenir
 Siparis.firma.append("torku")
 print(kek.firma)
+

@@ -9,17 +9,17 @@ class Araba():
         self.calisma_durumu=False
 
     def calistir(self):
+        print("araba çalıştırıldı")
         self.calisma_durumu=True
+        
     def hareket(self,yol):
         self.km+=yol
         self.yakit-=yol/20
 
 Araba_1=Araba("kırmızı",0,50)
 print(Araba_1.calisma_durumu)
-
 Araba_1.calistir()
 print(Araba_1.calisma_durumu)
-
 Araba_1.hareket(20)
 print(Araba_1.km)
 print(Araba_1.yakit)

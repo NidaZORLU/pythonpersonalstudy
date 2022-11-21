@@ -25,14 +25,12 @@ class Employee(Person):#person yazdığımız zaman yukardaki person sınıfınd
         super().__init__(name,age)#init fonksiyonuna git ve age götür beni
         self.id=id
 
-
     def calculate_pay(self,hours_worked):
         rate_of_pay=7.5
         if self.age>=21:
             rate_of_pay += 2.5
         return hours_worked * rate_of_pay
-class SalesPerson(Employee):
-    def __init__(self,name,age,id,region,sales)
+
 
     
 

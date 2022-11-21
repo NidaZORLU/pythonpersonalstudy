@@ -27,7 +27,7 @@ print(p2.name, 'is', p2.age)
 
 p1.name="Ayşe"
 print("-"*25)
-p1.age=54
+p1.age
 
 print(p1.name, 'is', p1.age)
 print(p2.name, 'is', p2.age)
