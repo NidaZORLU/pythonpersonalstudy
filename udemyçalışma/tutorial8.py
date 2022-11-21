@@ -1,6 +1,6 @@
 class Soru:
     global age
-    age=1
+    age=2
     def __init__ (self,age):
         self.age=age
 

@@ -16,8 +16,10 @@ class Araba():
 
 Araba_1=Araba("kırmızı",0,50)
 print(Araba_1.calisma_durumu)
+
 Araba_1.calistir()
 print(Araba_1.calisma_durumu)
+
 Araba_1.hareket(20)
 print(Araba_1.km)
 print(Araba_1.yakit)
