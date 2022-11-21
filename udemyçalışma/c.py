@@ -1,23 +1,21 @@
-class Araba:
-    def __init__(self, speed, color):  #init serves as a constructor. this is the first method that will be called when you create an instance
-        #print(speed)  #self means "the current object"
-        #print(color)
-        self.speed = speed
-        self.color = color
+class a:
+    def m(self):
+        print("m() from class a...")
+class b(a):
+    def m(self):
+        print("m() from class b...")
+class c(a):
+    def m(self):
+        print("m() from class b...")
+class d(b,c):
+    def m(self):
+        print("m() from class d...")
+        b.m(self)
+        c.m(self)
+        a.m(self)
+def main():
+    obj1=d()
+    obj1.m()
 
-    def set_speed(self, value):
-        self.speed= value
-
-    def get_speed(self):
-        return self.speed
-
-ford = Araba(200,'red') # Ford is and object of the class Araba
-sahin = Araba(220,'blue')
-tofas = Araba(250,'black')
-
-tofas.set_speed(110)
-print(tofas.get_speed())
-print(tofas.color)
-
-tofas.speed=210
-print(tofas.speed)
+if __name__=="__main__":
+    main()
